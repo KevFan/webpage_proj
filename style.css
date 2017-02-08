@@ -1,66 +1,62 @@
-*
-{
+* {
   //border: dashed thin;
 }
-body
-{
-  width: 80%;  
+
+body {
+  max-width: 80%;  
   margin: 0 auto;
+  font-family: 'Open Sans';
 }
-#maincontent
-{  
+
+#maincontent {  
   width: 100%;  
   float: right;
   padding: 2%;
   border: blue solid 1px;
 }
-#navigation
-{  
+
+#navigation {  
   width: 100%;
   float: left;  
 }
-#header
-{  
+
+#header {  
   width: 100%;
 }
-#footer
-{  
+
+#footer {  
   width: 100%;
   clear: both;
 }
-#primary
-{  
+
+#primary {  
   width: 68%;  
   float: left;  
 }
 
-#secondary
-{  
+#secondary {  
   width: 30%;  
   float: right;
 }
 
-ul#menu li 
-{
+ul#menu li {
   display:inline; 
   line-height: 2em;
   padding-right: .5em;
   padding-left: .5em;
 }
 
-ul#menu 
-{
+ul#menu  {
   margin: 0;
   padding: 0;
 }
 
-ul#menu a
-{
+ul#menu a {
   text-decoration: none;
+  border-radius: 15px;
 }
 
-#menu li.current a 
-{
+#menu li.current a  {
   background: blue;
   padding: .5em 2em .5em 2em;
   color:white;
