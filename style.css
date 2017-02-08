@@ -9,15 +9,16 @@ body {
 }
 
 #maincontent {  
-  width: 100%;  
   float: right;
   padding: 2%;
   border: blue solid 1px;
+  border-radius: 5px;
 }
 
 #navigation {  
   width: 100%;
   float: left;  
+  padding-bottom: 0.5em;
 }
 
 #header {  
@@ -27,6 +28,7 @@ body {
 #footer {  
   width: 100%;
   clear: both;
+  padding-top: 2%;
 }
 
 #primary {  
@@ -61,3 +63,19 @@ ul#menu a {
   padding: .5em 2em .5em 2em;
   color:white;
 }
+
+.banner {
+  background: url("./images/banner.jpg") top center;
+  background-position: top center;
+  height: 350px;
+}
+
+#summary
+{
+  width: 40%;
+  float: left;
+  color: white;
+  background : rgba(58,84,90, 0.5);
+  margin : 1em;
+  padding : 1em;
+  clear:both;
