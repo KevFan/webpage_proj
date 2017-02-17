@@ -24,7 +24,7 @@ img.displayed {
   padding: 2%;
   border: blue solid 1px;
   border-radius: 5px;
-  background-image: url("./images/Playstation-Desktop-Backgroundmod.jpg");
+  background-image: url("assets/images/Playstation-Desktop-Backgroundmod.jpg");
   font-weight: bold;
   background-size: cover;
 /*  background-repeat: no-repeat;*/
@@ -51,7 +51,7 @@ header {
   border: solid powderblue 1px;
   border-radius: 5px;
 /*  background-color: rgb(204, 255, 255);*/
-  background-image: url("./images/playstationwallpapermod.png");
+  background-image: url("assets/images/playstationwallpapermod.png");
   background-size: cover;
 }
 
