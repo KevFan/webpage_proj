@@ -1,42 +1,31 @@
-<nav id="navigation">  
-  <ul id="menu">  
-    <li><a href="../index.html">Home</a></li>  
-    <li><a href="./ps1.html">PlayStation 1</a></li>  
-    <li><a href="./ps2.html">PlayStation 2</a></li>  
-    <li><a href="./ps3.html">Playstation 3</a></li>  
-    <li><a href="./ps4.html">PlayStation 4</a></li>  
-    <li><a href="./psp.html">PlaySation Portable</a></li>  
-    <li class="current"><a href="./psvita.html">PlayStation Vita</a></li>  
-    <li><a href="./psvr.html">PlayStation VR</a></li>  
-  </ul>  
-</nav>
+<%- partial("../includes/_nav.ejs", { id: "PlayStationVita" }) %>
 
-<article id="maincontent">
+<main id="maincontent">
 
-<div class="container">
-  <div>
-    <img src="../assets/images/psvita/psvita.jpg" alt="PSVita Image">
-  </div>
-  <div>
-    <img src="../assets/images/psvita/psvitaslim.jpg" alt="PSVita Slim Image">
-  </div>
-  <div>
-    <img src="../assets/images/psvita/pstv.jpg" alt="PSVita TV Image">
-  </div>
-</div>
+  <section class="container">
+    <div>
+      <img src="../assets/images/psvita/psvita.jpg" alt="PSVita Image">
+    </div>
+    <div>
+      <img src="../assets/images/psvita/psvitaslim.jpg" alt="PSVita Slim Image">
+    </div>
+    <div>
+      <img src="../assets/images/psvita/pstv.jpg" alt="PSVita TV Image">
+    </div>
+  </section>
 
-<hr>
+  <hr>
 
-  <div id="primary">
+  <article id="primary">
     <p>
     
       The PlayStation Vita (officially abbreviated PS Vita or Vita) is a handheld game console developed and released by Sony Interactive Entertainment. It is the successor to the PlayStation Portable as part of the PlayStation brand of gaming devices. It was released in Japan on December 17, 2011, with releases in North America, Europe, and other worldwide regions starting on February 22, 2012. It primarily competes with the Nintendo 3DS as part of the eighth generation of video game consoles.
     </p>    
-  </div>
+  </article>
 
-  <div id="secondary">
+  <aside id="secondary">
     <p>
       The original model of the handheld includes a 5-inch (130 mm) OLED multi-touch capacitive touchscreen, two analog joysticks, front and shoulder push-button input, and supports Bluetooth, Wi-Fi and optional 3G. Internally, the Vita features a quad-core ARM Cortex-A9 MPCore processor and a quad-core SGX543MP graphics processing unit. A revised model, the PS Vita 2000 series, released across 2013 and 2014, sports all of the same features with a slightly smaller size, extended battery life, and an LCD screen replacing the OLED display. Sony also released the PlayStation TV, a short-lived, re-purposed version of the Vita that allowed for the play of PS Vita games on a television screen similar to a home video game console, though the PS TV variant was discontinued by the end of 2015.
     </p>  
-  </div>
-</article>
+  </aside>
+</main>

@@ -5,25 +5,13 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
   <link type="text/css" rel="stylesheet" href="style.css" media="screen" />
   <link rel="icon" type="img/png" href="assets/images/favicon.png">
-  <title>WebProject</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>WebProject Home</title>
 </head>
 
 <body>
   <%- partial("includes/_header.ejs") %>
-
-  <nav id="navigation">  
-    <ul id="menu">  
-      <li class="current"><a href="index.html">Home</a></li>  
-      <li><a href="strands/ps1.html">PlayStation 1</a></li>  
-      <li><a href="strands/ps2.html">PlayStation 2</a></li>  
-      <li><a href="strands/ps3.html">Playstation 3</a></li>  
-      <li><a href="strands/ps4.html">PlayStation 4</a></li>  
-      <li><a href="strands/psp.html">PlaySation Portable</a></li>  
-      <li><a href="strands/psvita.html">PlayStation Vita</a></li>  
-      <li><a href="strands/psvr.html">PlayStation VR</a></li>  
-    </ul>  
-  </nav>
-    
+  <%- partial("includes/_nav.ejs", { id: "Home" }) %>
   <%- partial("includes/_maincontent.ejs") %>
   <%- partial("includes/_container.ejs") %>
   <%- partial("includes/_footer.ejs") %>

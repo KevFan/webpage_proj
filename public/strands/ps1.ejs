@@ -1,38 +1,27 @@
-<nav id="navigation">  
-  <ul id="menu">  
-    <li><a href="../index.html">Home</a></li>  
-    <li class="current"><a href="./ps1.html">PlayStation 1</a></li>  
-    <li><a href="./ps2.html">PlayStation 2</a></li>  
-    <li><a href="./ps3.html">Playstation 3</a></li>  
-    <li><a href="./ps4.html">PlayStation 4</a></li>  
-    <li><a href="./psp.html">PlaySation Portable</a></li>  
-    <li><a href="./psvita.html">PlayStation Vita</a></li>  
-    <li><a href="./psvr.html">PlayStation VR</a></li>  
-  </ul>  
-</nav>
+<%- partial("../includes/_nav.ejs", { id: "PlayStation1" }) %>
 
-<article id="maincontent">
+<main id="maincontent">
 
-<section class="container">
-  <figure>
-    <img src="../assets/images/ps1/ps1.jpg" alt="Original PS1 Image">
-  </figure>
-  <figure>
-    <img src="../assets/images/ps1/ps1.png" alt="Redesign PS1 Image">
-  </figure>
-</section>
+  <section class="container">
+    <div>
+      <img src="../assets/images/ps1/ps1.jpg" alt="Original PS1 Image">
+    </div>
+    <div>
+      <img src="../assets/images/ps1/ps1.png" alt="Redesign PS1 Image">
+    </div>
+  </section>
 
-<hr>
+  <hr>
     
-  <div id="primary">
+  <article id="primary">
     <p>
       The PlayStation (Japanese: プレイステーション Hepburn: Pureisutēshon?) (officially abbreviated to PS, and commonly known as the PS1 or PSX) is a home video game console developed and marketed by Sony Computer Entertainment. The console was released on 3 December 1994 in Japan,[2] 9 September 1995 in North America, 29 September 1995 in Europe, and for 15 November 1995 in Australia. The console was the first of the PlayStation lineup of home video game consoles. It primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles.
-    </p>    
-  </div>
+    </p>
+  </article>
 
-  <div id="secondary">
+  <aside id="secondary">
     <p>
       The PlayStation is the first "computer entertainment platform" to ship 100 million units, which it had reached 9 years and 6 months after its initial launch.[8] In 2000, a redesigned, slim version called the PSone was released, replacing the original grey console and named appropriately to avoid confusion with its successor, the PlayStation 2.
     </p>  
-  </div>
-</article>
+  </aside>
+</main>
