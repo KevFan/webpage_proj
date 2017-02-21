@@ -19,10 +19,23 @@ img.displayed {
 }
 
 
-#maincontent {  
+#summary {  
   float: right;
   padding: 2%;
   border: blue solid 1px;
+  border-radius: 5px;
+  background-image: url("assets/images/xmbwave-background.jpg");
+  font-weight: bold;
+  background-size: cover;
+/*  background-repeat: no-repeat;*/
+/*  background-size: 100% 100%;*/
+/*  background-origin: content-box;*/
+}
+
+#maincontent {  
+  float: right;
+  padding: 2%;
+  border: green solid 1px;
   border-radius: 5px;
   background-image: url("assets/images/main-background.jpg");
   font-weight: bold;
@@ -30,6 +43,12 @@ img.displayed {
 /*  background-repeat: no-repeat;*/
 /*  background-size: 100% 100%;*/
 /*  background-origin: content-box;*/
+}
+
+/*Clear fix for when sections with multiples columns are one after another*/
+.clearing {
+  height: 0;
+  clear: both;
 }
 
 #navigation {  
@@ -71,12 +90,12 @@ header {
   border: solid violet 1px;
 }
 
-#primary {  
+.col1 {  
   width: 60%;  
   float: left;  
 }
 
-#secondary {  
+.col2 {  
   width: 35%;  
   float: right;
 }
@@ -96,13 +115,14 @@ ul#menu  {
 ul#menu a {
   text-decoration: none;
   border-radius: 15px;
-  color: green;
-  border: violet dashed 1px;
+  color: purple;
+  /*border: violet dashed 1px;*/
   padding: .25em 0.2em .25em 0.2em;
 }
 
 ul#menu a:hover {
-  background-color: rgb(255, 255, 230);
+  /*background-color: rgb(255, 255, 230);*/
+  font-weight: bold;
 }
 
 #menu li.current a  {
