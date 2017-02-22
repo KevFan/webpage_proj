@@ -9,6 +9,8 @@ body {
 /*  text-align: justify;*/
 }
 
+/*This centers the image, fits the image to container and allows it to 
+resize with change in viewport size*/
 img.displayed {
   display: block;
   margin-left: auto;
@@ -69,24 +71,16 @@ img.displayed {
 header {
   border: solid powderblue 1px;
   border-radius: 5px;
-/*  background-color: rgb(204, 255, 255);*/
   background-image: url("assets/images/header-background.png");
   background-size: cover;
 }
 
 #footer {  
   width: 100%;
-/*  clear: both;*/
-/*  padding-top: 2%;*/
-/*  padding: 1%;*/
   text-align: center;
   background-color: rgb(255, 102, 102);
   border-radius: 5px;
   color: white;
-/*  padding-bottom: 1%;*/
-/*  position:absolute;
-  bottom:0;
-  left:0;*/
   border: solid violet 1px;
 }
 
@@ -123,6 +117,7 @@ ul#menu a {
 ul#menu a:hover {
   /*background-color: rgb(255, 255, 230);*/
   font-weight: bold;
+  border: violet dashed 1px;
 }
 
 #menu li.current a  {

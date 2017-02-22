@@ -1,32 +1,73 @@
 <%- partial("../includes/_nav.ejs", { id: "PlayStation4" }) %>
 
-<main id="maincontent">
+<main>
 
-  <section class="container">
-    <div>
-      <img src="../assets/images/ps4/ps4.jpg" alt="PS4 Image">
-    </div>
-    <div>
-      <img src="../assets/images/ps4/ps4pro.jpg" alt="PS4 PRO Image">
-    </div>
-  </section>
+  <div id="summary">
+    <section class="container">
+      <div>
+        <a href="#PS4"><img src="../assets/images/ps4/ps4.jpg" alt="PS4 Image"></a>
+      </div>
+      <div>
+        <a href="#PS4 Pro"><img src="../assets/images/ps4/ps4pro.jpg" alt="PS4 PRO Image"></a>
+      </div>
+    </section>
+
+    <hr>
+
+    <h2>Summary</h2>
+    <article class="col1">
+      <p>
+      
+        The PlayStation 4 (abbreviated as PS4) is a home video game console developed by Sony Computer Entertainment. Announced as the successor to the PlayStation 3 during a press conference on February 20, 2013, it was launched on November 15 in North America, November 29 in Europe, South America and Australia, and February 22, 2014 in Japan. It competes with Nintendo's Wii U and Microsoft's Xbox One, as part of the eighth generation of video game consoles.
+
+        <div class="videoWrapper">
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/Jw8HCFZkBds" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </p>    
+    </article>
+
+    <aside class="col2">
+      <p>
+        Moving away from the more complex Cell microarchitecture of its predecessor, the console features an AMD Accelerated Processing Unit (APU) built upon the x86-64 architecture, which can theoretically peak at 1.84 teraflops; AMD stated that it was the "most powerful" APU they had developed to date. The PlayStation 4 places an increased emphasis on social interaction and integration with other devices and services, including the ability to play games off-console on PlayStation Vita and supported Sony Xperia mobile devices ("Remote Play"), the ability to stream gameplay online or to friends, with them controlling gameplay remotely ("Share Play"). The console's controller was also redesigned and improved over the PlayStation 3, with improved buttons and analog sticks, and an integrated touchpad among other changes.
+      </p>  
+    </aside>
+  </div>
 
   <hr>
 
-  <article id="primary">
-    <p>
-    
-      The PlayStation 4 (abbreviated as PS4) is a home video game console developed by Sony Computer Entertainment. Announced as the successor to the PlayStation 3 during a press conference on February 20, 2013, it was launched on November 15 in North America, November 29 in Europe, South America and Australia, and February 22, 2014 in Japan. It competes with Nintendo's Wii U and Microsoft's Xbox One, as part of the eighth generation of video game consoles.
+  <div id="maincontent">
 
-      <div class="videoWrapper">
-        <iframe width="854" height="480" src="https://www.youtube.com/embed/Jw8HCFZkBds" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </p>    
-  </article>
+  <h2 id="PS4">Original PS4</h2>
+    <article class="col1">
+      <p>
+        The PlayStation 4 uses an Accelerated Processing Unit (APU) developed by AMD in cooperation with Sony. It combines a central processing unit (CPU) and graphics processing unit (GPU), as well as other components such as a memory controller and video decoder.[42] The CPU consists of two quad-core Jaguar modules totaling 8 x86-64 cores.[42][43] The GPU consists of 18 compute units to produce a theoretical peak performance of 1.84 TFLOPS.[23] The system's GDDR5 memory is capable of running at a maximum clock frequency of 2.75 GHz (5500 MT/s) and has a maximum memory bandwidth of 176 GB/s.[23][44][45] The console contains 8 GB of GDDR5 memory,[23][46] 16 times the amount of RAM found in the PS3 and is expected to give the console considerable longevity.[38][47] It also includes secondary custom chips that handle tasks associated with downloading, uploading, and social gameplay.[48][49] These tasks can be handled seamlessly in the background during gameplay or while the system is in sleep mode.[50] The console also contains an audio module, which can support in-game chat as well as "a very large number" of audio streams for use in-game.[51] All PlayStation 4 models support high dynamic range (HDR) color profiles.[52]
+      </p>    
 
-  <aside id="secondary">
-    <p>
-      Moving away from the more complex Cell microarchitecture of its predecessor, the console features an AMD Accelerated Processing Unit (APU) built upon the x86-64 architecture, which can theoretically peak at 1.84 teraflops; AMD stated that it was the "most powerful" APU they had developed to date. The PlayStation 4 places an increased emphasis on social interaction and integration with other devices and services, including the ability to play games off-console on PlayStation Vita and supported Sony Xperia mobile devices ("Remote Play"), the ability to stream gameplay online or to friends, with them controlling gameplay remotely ("Share Play"). The console's controller was also redesigned and improved over the PlayStation 3, with improved buttons and analog sticks, and an integrated touchpad among other changes.
-    </p>  
-  </aside>
+      <p>
+        Its read-only optical drive is capable of reading Blu-ray Discs at speeds of up to three times that of its predecessor.[47][53] The console features a hardware on-the-fly decompression module boosting optical disc reading speed and buffer unread data when a game is not actively accessing the optical drive.[51] The original PS4 model can output in 4K and play multimedia in the format, but does not play games in 4K.[54][55] The console includes a 500 gigabyte hard drive for additional storage,[56] which can be upgraded by the user.[57] With System Software 4.50, anticipated for an early 2017 release, the console will support USB external hard drives up to 8 TB for additional storage.[58]
+      </p>  
+    </article>
+
+    <aside class="col2">
+      <img src="../assets/images/ps4/ps4logo.png" alt="PS4 Logo Image" class="displayed">
+      <img src="../assets/images/ps4/ps4box.jpg" alt="PS4 Box Image" class="displayed">
+    </aside>
+
+    <hr class="clearing">
+
+    <h2 id="PS4 Pro">PS4 Pro</h2>
+    <article class="col1">
+      <p>
+        The upgraded 'PS4 Pro' (originally codenamed 'Neo',[17][18] product code CUH-7000) uses a more powerful APU initially built with a 16 nm FinFET process from TSMC. While the number of logical processor cores (8) remained the same, CPU clock speed was increased from 1.6 GHz to 2.13 GHz (33.1% improvement in CPU core clockrate), but with the underlying architecture unchanged. The number of graphics cores of the APU was doubled to 36 Graphics Core Next (GCN) cores (from 18), with a clock speed increase to 911 MHz (from 800 MHz), resulting in a (theoretical) single precision floating point performance metric of 4.2 TeraFLOPs. Compared to the original PS4 GPU, this is a 2.27X increase in single precision FLOPs. Overall unified system memory architecture has been improved, with the addition of another 1GB segment of DDR3 DRAM. The PS4 Pro is able to use this increase in memory to swap out non-gaming applications that run in the background, like Netflix and Spotify. As a side benefit to this, an additional 512MB of GDDR5 is available for developers to use for games adding up to 5.5GB, as opposed to the 5GB available on base PS4 hardware. GDDR5 memory speed was increased from 5.5 GHz (or 4x 1.375 GHz) to 6.8 GHz (or 4x 1.7 GHz) increasing total memory bandwidth to 218GB/s which correlates to a 23.8% improvement.[19]
+      </p>    
+
+      <p>
+        Some elements added to the design were derived from AMD's newer Polaris and newer architectures;[20][21] such new features of the processor included a HEVC video codec decoder, for 4K video. Other specification changes included HDMI output to HDMI 2.0b standard, with HDCP 2.2 compliance. Wireless networking included 5 GHz band support using the IEEE 802.11ac standard, and Bluetooth support was to version 4.0; wired LAN was as the original PS4. The rated power of the original PS4 Pro was 310W.[19]
+      </p>  
+    </article>
+
+    <aside class="col2">
+      <img src="../assets/images/ps4/ps4probox.jpg" alt="PS4 PRO Box Image" class="displayed">
+    </aside>
+  </div>
 </main>
