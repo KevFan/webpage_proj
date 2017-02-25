@@ -2,11 +2,59 @@
   border: dashed thin;
 }*/
 
+hr {
+  border: dashed white 1px;
+}
+
+/*
+====================================================================
+The following css code relates to the body/main content
+====================================================================
+*/
+
 body {
   max-width: 90%;  
   margin: 0 auto;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;
 /*  text-align: justify;*/
+}
+
+
+#summary {  
+  float: right;
+  padding: 2%;
+  border: blue solid 1px;
+  border-radius: 5px;
+  background-image: url("assets/images/xmbwave-background.jpg");
+  font-weight: bold;
+  background-size: cover;
+}
+
+#maincontent {  
+  float: right;
+  padding: 2%;
+  border: green solid 1px;
+  border-radius: 5px;
+  background-image: url("assets/images/main-background.jpg");
+  font-weight: bold;
+  background-size: cover;
+}
+
+.col1 {  
+  width: 60%;  
+  float: left;  
+}
+
+.col2 {  
+  width: 35%;  
+  float: right;
+}
+
+
+/*Clear fix for when sections with multiples columns are one after another*/
+.clearing {
+  height: 0;
+  clear: both;
 }
 
 /*This centers the image, fits the image to container and allows it to 
@@ -20,47 +68,11 @@ img.displayed {
   border-radius: 10px;
 }
 
-
-#summary {  
-  float: right;
-  padding: 2%;
-  border: blue solid 1px;
-  border-radius: 5px;
-  background-image: url("assets/images/xmbwave-background.jpg");
-  font-weight: bold;
-  background-size: cover;
-/*  background-repeat: no-repeat;*/
-/*  background-size: 100% 100%;*/
-/*  background-origin: content-box;*/
-}
-
-#maincontent {  
-  float: right;
-  padding: 2%;
-  border: green solid 1px;
-  border-radius: 5px;
-  background-image: url("assets/images/main-background.jpg");
-  font-weight: bold;
-  background-size: cover;
-/*  background-repeat: no-repeat;*/
-/*  background-size: 100% 100%;*/
-/*  background-origin: content-box;*/
-}
-
-/*Clear fix for when sections with multiples columns are one after another*/
-.clearing {
-  height: 0;
-  clear: both;
-}
-
-#navigation {  
-  width: 100%;
-/*  float: left;  */
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-/*  background-color: rgb(255, 255, 237);
-  border-radius: 5px;*/
-}
+/*
+====================================================================
+The following css code relates to the header section
+====================================================================
+*/
 
 #header a {  
   width: 100%;
@@ -75,24 +87,47 @@ header {
   background-size: cover;
 }
 
+.header-logo {
+  float: left;
+  height: 50px;
+}
+
+/*
+====================================================================
+The following css code relates to the footer
+====================================================================
+*/
+
 #footer {  
-  width: 100%;
-  text-align: center;
+  max-width: 100%;
+/*  text-align: center;*/
   background-color: rgb(255, 102, 102);
   border-radius: 5px;
   color: white;
   border: solid violet 1px;
+  font-size: 0.875em;
+  padding: 1em;
 }
 
-.col1 {  
-  width: 60%;  
-  float: left;  
-}
-
-.col2 {  
-  width: 35%;  
+#footer img {
+  height: 25px;
   float: right;
+  padding-right: 0.3em;
 }
+
+/*
+====================================================================
+The following css code relates to the navigation bar
+====================================================================
+*/
+
+#navigation {  
+  width: 100%;
+/*  float: left;  */
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
 
 ul#menu li {
   display: inline-block; 
@@ -115,7 +150,7 @@ ul#menu a {
 }
 
 ul#menu a:hover {
-  /*background-color: rgb(255, 255, 230);*/
+  background-color: rgb(255, 255, 230);
   font-weight: bold;
   border: violet dashed 1px;
 }
@@ -126,39 +161,12 @@ ul#menu a:hover {
   color:white;
 }
 
-/*#primary img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  height: 120px;
-  width: 300px;
-  border-radius: 200px;
-  padding-bottom: 1em;
-}*/
-
-/*.footer-link {
-  clear: both;
-  padding-top: 2em;
-}*/
-
-/*.footer-image { 
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 13%;
-  max-height: 14%;
-  border-radius: 200px;
-  opacity: 1;
-}*/
-
-/*.footer-image:hover {
-  opacity: 0.7;
-}*/
-
-.header-logo {
-  float: left;
-  height: 50px;
-}
+/*
+====================================================================
+The following css code acts as a container for videos embedded using
+an iframe (e.g. Youtube) that resizes which viewport size change
+====================================================================
+*/
 
 .videoWrapper {
   position: relative;
@@ -174,6 +182,13 @@ ul#menu a:hover {
   width: 100%;
   height: 100%;
 }
+
+/*
+====================================================================
+The following css code acts as a container for multiple images
+displayed horizontally that resizes which viewport size change
+====================================================================
+*/
 
 .container {
   display: flex;
@@ -191,13 +206,58 @@ ul#menu a:hover {
   height: 100%;
   width: 100%;
   opacity: 1;
-  border-radius: 200px;
+/*  border-radius: 200px;*/
 }
 
 .container img:hover {
   opacity: 0.7;
 }
 
-hr {
-  border: dashed white 1px;
+
+/*
+====================================================================
+The following css code displays text on hover over a image or text
+====================================================================
+*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  margin-right: 1em;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(0, 51, 102);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
