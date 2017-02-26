@@ -27,8 +27,8 @@ USER INSTRUCTIONS:
 --------------------------
 User should host the project locally through a platform that supports the ejs templating engine (such as harp). 
 
-Alternatively if this project has been deployed, you can visit the project at:
-<link to project site here>
+Alternatively, this project has been deployed using surge, to the domain name:
+kevfanwebproject.surge.sh
 
 Note: Website is intended for use on a desktop - some functionality such as change in opacity on hover may not work as intended when viewed on a mobile system
 
