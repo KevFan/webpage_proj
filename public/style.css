@@ -19,15 +19,21 @@ body {
 /*  text-align: justify;*/
 }
 
+/*Can seperate out the summary and maincontent code that appear 
+twice to a seperate class*/
 
 #summary {  
   float: right;
   padding: 2%;
   border: blue solid 1px;
   border-radius: 5px;
-  background-image: url("assets/images/xmbwave-background.jpg");
+  background-image: url("assets/images/backgrounds/xmbwave-background.jpg");
   font-weight: bold;
   background-size: cover;
+}
+
+#summary img:hover {
+  opacity: 0.7;
 }
 
 #maincontent {  
@@ -35,7 +41,7 @@ body {
   padding: 2%;
   border: green solid 1px;
   border-radius: 5px;
-  background-image: url("assets/images/main-background.jpg");
+  background-image: url("assets/images/backgrounds/main-background.jpg");
   font-weight: bold;
   background-size: cover;
 }
@@ -83,7 +89,7 @@ The following css code relates to the header section
 header {
   border: solid powderblue 1px;
   border-radius: 5px;
-  background-image: url("assets/images/header-background.png");
+  background-image: url("assets/images/backgrounds/header-background.jpg");
   background-size: cover;
 }
 
@@ -109,7 +115,7 @@ The following css code relates to the footer
   padding: 1em;
 }
 
-#footer img {
+#footer a img {
   height: 25px;
   float: right;
   padding-right: 0.3em;
