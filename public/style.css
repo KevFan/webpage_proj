@@ -20,16 +20,20 @@ body {
 }
 
 /*Can seperate out the summary and maincontent code that appear 
-twice to a seperate class*/
+in both class*/
 
-#summary {  
+.content {
   float: right;
   padding: 2%;
-  border: blue solid 1px;
   border-radius: 5px;
-  background-image: url("assets/images/backgrounds/xmbwave-background.jpg");
   font-weight: bold;
   background-size: cover;
+}
+
+#summary {  
+  border: blue solid 1px;
+  background-image: url("assets/images/backgrounds/xmbwave-background.jpg");
+  
 }
 
 #summary img:hover {
@@ -37,13 +41,8 @@ twice to a seperate class*/
 }
 
 #maincontent {  
-  float: right;
-  padding: 2%;
   border: green solid 1px;
-  border-radius: 5px;
   background-image: url("assets/images/backgrounds/main-background.jpg");
-  font-weight: bold;
-  background-size: cover;
 }
 
 .col1 {  
@@ -67,11 +66,10 @@ twice to a seperate class*/
 resize with change in viewport size*/
 img.displayed {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
+  margin: 0em auto 0.5em auto;
 }
 
 /*

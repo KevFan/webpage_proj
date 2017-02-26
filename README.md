@@ -17,7 +17,7 @@ For my webpage, I based the project on the history and developement of Sony Play
 
 HOW TO START THIS PROJECT:
 --------------------------
-The project currently uses ejs templating, and as such would require the project to be hosted locally which supports this templating system (harp was used during the developement of this project), therefore an internet connection is required.
+The project currently uses ejs templating, and as such would require the project to be hosted locally through an application that supports this templating system (harp was used during the developement of this project), therefore an internet connection is required.
 
 Also the website would not work correctly for the harp compile version unless it's been deployed, as referencing has been changed to absolute for deployment.
 
@@ -27,7 +27,7 @@ USER INSTRUCTIONS:
 --------------------------
 User should host the project locally through a platform that supports the ejs templating engine (such as harp). 
 
-Alternatively if this project has been deployed, you can visit the project at
+Alternatively if this project has been deployed, you can visit the project at:
 <link to project site here>
 
 Note: Website is intended for use on a desktop - some functionality such as change in opacity on hover may not work as intended when viewed on a mobile system
