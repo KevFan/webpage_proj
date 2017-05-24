@@ -3,7 +3,7 @@
 }*/
 
 body {
-  max-width: 80%;  
+  max-width: 90%;  
   margin: 0 auto;
   font-family: 'Open Sans';
 /*  text-align: justify;*/
@@ -24,7 +24,7 @@ img.displayed {
   padding: 2%;
   border: blue solid 1px;
   border-radius: 5px;
-  background-image: url("./images/Playstation-Desktop-Backgroundmod.jpg");
+  background-image: url("assets/images/main-background.jpg");
   font-weight: bold;
   background-size: cover;
 /*  background-repeat: no-repeat;*/
@@ -51,7 +51,7 @@ header {
   border: solid powderblue 1px;
   border-radius: 5px;
 /*  background-color: rgb(204, 255, 255);*/
-  background-image: url("./images/playstationwallpapermod.png");
+  background-image: url("assets/images/header-background.png");
   background-size: cover;
 }
 
@@ -72,12 +72,12 @@ header {
 }
 
 #primary {  
-  width: 68%;  
+  width: 60%;  
   float: left;  
 }
 
 #secondary {  
-  width: 30%;  
+  width: 35%;  
   float: right;
 }
 
@@ -102,12 +102,12 @@ ul#menu a {
 }
 
 ul#menu a:hover {
-  background-color: rgb(255, 255, 237);
+  background-color: rgb(255, 255, 230);
 }
 
 #menu li.current a  {
   background: rgb(90, 137, 221);
-  padding: .3em 2em .3em 2em;
+  padding: .3em 0.8em .3em 0.8em;
   color:white;
 }
 
@@ -186,4 +186,3 @@ ul#menu a:hover {
 hr {
   border: dashed white 1px;
 }
-
